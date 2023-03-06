@@ -1,0 +1,37 @@
+div.container-TitlesWithLines{
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+  color: var(--pink);
+  margin-bottom: 0.25rem ;
+
+h2{
+  position: relative;
+  font-family: Poppins, sans-serif;
+  font-size: 1.875rem;
+  line-height: 150%;
+  font-weight: 700;
+
+ &::before{
+  content: '';
+  position: absolute;
+  top: 1.125rem;
+  right: 24rem;
+
+  width: 22.5rem;
+  height: 1px;
+  background-color: var(--gray-400);
+ }
+
+ &::after{
+  content: '';
+  position: absolute;
+  top: 1.125rem;
+  left: 24rem;
+
+  width: 22.5rem;
+  height: 1px;
+  background-color: var(--gray-400);
+ }
+}
+}

@@ -1,0 +1,95 @@
+div.container-News{
+  background-color: var(--white);
+  border-radius: 10px;
+  max-width: 23.75rem;
+
+  div.content-News{
+    padding: 2.5rem 2rem;
+  }
+}
+
+span.title-News{
+   font-family: 'Poppins', sans-serif;
+    font-size: 1.125rem;
+    line-height: 144%;
+    font-weight: 300;
+    text-align: left;
+    color: var(--gray-1100);
+
+    strong{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3125rem;
+    line-height: 124%;
+    font-weight: 700;
+    text-align: left;
+    color: var(--gray-1100);
+    }
+
+}
+
+div.text-News{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 1.0625rem;
+  margin-bottom: 1.9375rem;
+
+  span{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 158%;
+    text-align: center;
+    color: var(--gray-1100);
+  }
+}
+
+form.form-News{
+  display: flex; 
+  gap: 0.5625rem;
+
+  input.input-News{
+    height: 2.8125rem;
+    width: 14.375rem;
+
+    padding: 0.8125rem 0 0.75rem 1.5625rem;
+
+    background-color: var(--white);
+    border-radius: 4px;
+    border: 1px solid var(--gray-1300);
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.75rem;
+    line-height: 167%;
+    font-weight: 400;
+    text-align: left;
+    color: var(--gray-1000);
+
+    &::placeholder{
+      color: var(--gray-500);
+    }
+  }
+  button.button-news{
+    padding: 0.8125rem 1.25rem 0.75rem 1.3125rem;
+
+    font-family: 'Poppins';
+    font-size: 0.875rem;
+    line-height: 143%;
+    font-weight: 700;
+    text-align: center;
+
+    border: none;
+    border-radius: 4px;
+
+    background-color: var(--pink);
+    color: var(--white);
+    cursor: pointer;
+    transition: all 0.2s;
+
+    &:hover{
+      filter: brightness(130%);
+    }
+  }
+}
+

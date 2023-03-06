@@ -1,0 +1,44 @@
+div.carousel{
+  width: 90rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+
+  @media (max-width:1439px){
+   width: 69.1875rem
+  }
+
+    @media (max-width:1280px){
+  width: 51rem
+  }
+
+  .arrows{
+    background-color: var(--white);
+    border: none;
+    cursor: pointer;
+
+    &:hover{
+      filter: brightness(150%);
+    }
+  }
+}
+
+div.carousel-Products{
+  height: 31.25rem;
+  width: 84rem;
+  overflow: auto;
+  scroll-behavior: smooth;
+
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 3.875rem;
+
+  &::-webkit-scrollbar{
+    display: none;
+  }
+}

@@ -1,0 +1,95 @@
+div.container-Products{
+  // width:16.875rem;
+  // height: 31.25rem;
+
+  background: var(--white);
+  box-shadow: 0px 3px 19px rgba(0, 0, 0, 0.22);
+  border-radius: 10px;
+}
+
+div.content-Products{
+  padding: 1rem 0.75rem;
+  display: flex;
+  flex-direction: column;
+
+  img.products-Image{
+    margin-bottom: 0.5625rem;
+  }
+
+  p.products-Name{
+    font-family: Poppins, sans-serif;
+    font-size: 0.9375rem;
+    line-height: 150%;
+    font-weight: 300;
+    text-align: left;
+    color: var(--gray-1100);
+
+    margin-bottom: 0.75rem;
+  }
+  span.freeShipping{
+    font-family: Poppins;
+    font-size: 0.75rem;
+    line-height: 150%;
+    font-weight: 400;
+    text-align: left;
+    color: var(--pink);
+
+    margin-bottom: 0.75rem;
+  }
+  button.buy{
+    padding: 0.875rem  5.40625rem 0.5625rem;
+
+    background-color: var(--pink);
+    border: none;
+    border-radius: 4px;
+
+    font-family: Poppins;
+    font-size: 0.875rem;
+    line-height: 150%;
+    font-weight: 700;
+    color: var(--white);
+    cursor: pointer;
+    transition: 0.2s all;
+
+    &:hover{
+      filter: brightness(130%);
+    }
+  }
+}
+
+ div.products-Prices{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.125rem;
+  margin-bottom: 0.4375rem;
+  
+  span.oldPrice{
+    font-family: Poppins, sans-serif;
+    font-size: 1rem;
+    line-height: 150%;
+    font-weight: 400;
+    text-align: left;
+    color: var(--gray-800);
+    text-decoration-line: line-through;
+  }
+
+    span.realPrice{
+    font-family: Poppins, sans-serif;
+    font-size: 1.25rem;
+    line-height: 150%;
+    font-weight: 700;
+    text-align: left;
+    color: var(--gray-1100);
+  }
+
+  span.methodOfPayment{
+    font-family: Poppins, sans-serif;
+    font-size: 0.75rem;
+    line-height: 150%;
+    font-weight: 400;
+    text-align: left;
+    color: var(--gray-1100);
+  }
+ }

@@ -1,0 +1,36 @@
+div.container-MethodsOfPayments{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+
+    @media (max-width:1080px){
+   display: none;
+  }
+
+  strong.title-MethodsOfPayments{
+    font-family: Poppins, sans-serif;
+    font-size: 0.8125rem;
+    line-height: 150%;
+    font-weight: 700;
+    text-align: left;
+    color: var(--white);
+
+    margin-bottom: 1.5rem;
+  }
+}
+
+div.content-MethodsOfPayments{
+  display: flex;
+  justify-content: center;
+  align-content:  center; 
+  gap: 1.5rem;
+
+  div.methodsOfPayments{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center; 
+    gap: 1.5rem;
+    }
+ }

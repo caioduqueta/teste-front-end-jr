@@ -1,0 +1,62 @@
+div.container-Banner{
+  position: relative;
+
+  width: 90rem;
+  height: 24.375rem;
+  background-repeat: no-repeat !important;
+}
+
+
+div.content-Banner{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+
+    h1.title-Banner{
+      font-family: 'Poppins', sans-serif;
+      font-size: 3rem;
+      line-height: 150%;
+      font-weight: 600;
+      text-align: left;
+
+      color: var(--white);
+      margin-bottom: 1rem;
+    }
+
+    span.text-Banner{
+      font-family: 'Poppins', sans-serif;
+      font-size: 2.25rem;
+      line-height: 150%;
+      font-weight: 600;
+      text-align: left;
+      
+      color: var(--white);
+      margin-bottom: 2.1875rem;
+    }
+
+    button.button-Banner{
+      max-width: 17.3125rem;
+      padding: 1rem 3.75rem;
+      background-color: var(--pink);
+
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.125rem;
+      line-height: 150%;
+      font-weight: 600;
+      text-align: center;
+
+      color: var(--white);
+
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.2s all;
+
+      &:hover{
+        filter: brightness(130%);
+      }
+    }
+} 
+

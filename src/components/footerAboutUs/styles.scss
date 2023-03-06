@@ -1,0 +1,65 @@
+div.container-AboutUs{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+
+  strong.title-AboutUs{
+    font-family: Poppins, sans-serif;
+    font-size: 0.8125rem;
+    line-height: 150%;
+    font-weight: 700;
+    text-align: left;
+    color: var(--white);
+
+    margin-bottom: 1.5rem;
+  }
+}
+
+div.mainContent-AboutUs{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center; 
+  gap: 3.875rem;
+
+  div.infoLinks-AboutUs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center; 
+    a{
+      font-family: Poppins, sans-serif;
+      font-size: 0.75rem;
+      line-height: 267%;
+      font-weight: 300;
+      text-align: left;
+      color: var(--white);
+
+      text-decoration: none;
+
+      cursor: pointer;
+      transition: all 0.2s;
+
+      &:hover{
+      color: var(--pink);
+      }
+    }
+  }
+
+  div.socialLinks-AboutUs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+      svg {
+        &:hover{
+          path{
+           fill: var(--pink);
+          }
+        }
+      }
+}
+}

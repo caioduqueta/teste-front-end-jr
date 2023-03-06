@@ -1,0 +1,18 @@
+div.container-TextBelow{
+margin-bottom: 1rem;
+}
+a.textBelow{
+  font-family: Poppins;
+  font-size: 0.9375rem;
+  line-height: 150%;
+  font-weight: 700;
+  letter-spacing: 0em;
+  text-align: center;
+  color: var(--gray-1100);
+  cursor: pointer;
+  transition: all 0.2s;
+
+  &:hover{
+    color: var(--pink);
+  }
+}

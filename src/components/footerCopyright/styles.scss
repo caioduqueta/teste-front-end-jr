@@ -1,0 +1,55 @@
+div.container-FooterCopyright{
+  height: 4.375rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.content-FooterCopyright{
+  width: 80rem;
+
+      @media (max-width:1439px){
+   width: 60rem;
+    
+  }
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+   @media (max-width:1080px){
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    
+  }
+
+  p.text-FooterCopyright{
+    font-family: Poppins, sans-serif;
+    font-size: 0.625rem;
+    line-height: 130%;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: var(--white);
+    text-transform: uppercase;
+
+  @media (max-width:1080px){
+   display: none
+    
+  }
+  }
+
+   div.logos-FooterCopyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+    img.socialLogo{
+      cursor: pointer;
+    }
+   }
+}
